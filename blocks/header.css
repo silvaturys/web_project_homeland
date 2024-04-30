@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+}
+
+.header__logo{
+  width:254px;
+  height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 254px;
+    height: 66px;
+  }
+
+  .header{
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+   .header__logo{
+    width: 158px;
+    height: 52px;
+  }
+
+  .header{
+    max-width: 320px;
+  }
+}
