@@ -39,7 +39,7 @@
   }
 
   .lead__title{
-    font-family: Inter;
+    font-family: "Inter", "sans-serif";
     font-size: 75px;
     line-height: 79px;
     padding-left: 24px;
